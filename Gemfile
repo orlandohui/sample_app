@@ -1,18 +1,21 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
-
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
 gem 'sqlite3','1.3.3'
 
 group :development do
-	gem 'rspec-rails', '2.6.1'
+	
+gem 'rspec-rails', '2.4.0'
+gem 'autotest'
+gem 'ZenTest'
+gem 'annotate'
+gem 'autotest-notification', '2.3.1'
+gem 'autotest-growl', '0.2.9'
+
 end
 
 group :test do
-	gem 'rspec-rails', '2.6.1'
+	gem 'rspec', '2.4.0'
 	gem 'webrat', '0.7.1'
 end
 
@@ -27,7 +30,7 @@ end
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:
-# gem 'bj'
+# gem 
 # gem 'nokogiri'
 # gem 'sqlite3-ruby', :require => 'sqlite3'
 # gem 'aws-s3', :require => 'aws/s3'
