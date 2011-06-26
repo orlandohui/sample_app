@@ -5,8 +5,8 @@ gem 'sqlite3','1.3.3'
 
 group :development do
 	
-gem 'rspec-rails', '2.4.0'
-gem 'autotest'
+gem 'rspec-rails', '2.6.1'
+gem 'autotest', '4.4.6'
 gem 'ZenTest'
 gem 'annotate'
 gem 'autotest-notification', '2.3.1'
@@ -15,7 +15,7 @@ gem 'autotest-growl', '0.2.9'
 end
 
 group :test do
-	gem 'rspec', '2.4.0'
+	gem 'rspec-rails', '2.6.1'
 	gem 'webrat', '0.7.1'
 end
 
